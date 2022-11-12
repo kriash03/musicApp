@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="scrollView" id="iN0-l3-epB" customClass="scrollView" customModule="musicApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="138" translatesAutoresizingMaskIntoConstraints="NO" id="igA-Nc-acy">
+                    <rect key="frame" x="27" y="237" width="360" height="422"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="vSf-0c-sGw">
+                            <rect key="frame" x="0.0" y="0.0" width="360" height="142"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="xzD-E9-2Dd">
+                                    <rect key="frame" x="0.0" y="0.0" width="148" height="142"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NRt-jf-pil">
+                                            <rect key="frame" x="0.0" y="0.0" width="148" height="142"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="dWd-f7-C1f">
+                                                    <rect key="frame" x="0.0" y="0.0" width="148" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTI-pa-5DC">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="67" id="SAY-97-DFj"/>
+                                                                <constraint firstAttribute="width" constant="67" id="vs1-Tt-dqa"/>
+                                                            </constraints>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="Image">
+                                                                <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="90"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grk-oX-K3K">
+                                                            <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="67" id="NFX-e7-Xav"/>
+                                                                <constraint firstAttribute="height" constant="67" id="d88-u9-oGF"/>
+                                                            </constraints>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="cymbol"/>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="cbf-1K-b8e">
+                                                    <rect key="frame" x="0.0" y="75" width="148" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iI-2v-yZ4">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="72L-jj-vEH"/>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="jgo-MV-s7a"/>
+                                                                <constraint firstAttribute="height" constant="67" id="rls-OU-xMz"/>
+                                                            </constraints>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="snare" image="snare"/>
+                                                        </button>
+                                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUO-A5-DET">
+                                                            <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="67" id="2qs-of-h6A"/>
+                                                                <constraint firstAttribute="width" constant="67" id="etZ-sq-WU6"/>
+                                                            </constraints>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="bass kick"/>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pS0-wl-4ix">
+                                    <rect key="frame" x="212" y="0.0" width="148" height="142"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="8MD-eg-9Mi">
+                                            <rect key="frame" x="0.0" y="0.0" width="148" height="67"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="m50-aD-IYt">
+                                                    <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSJ-73-5iK">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="strings"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="67" id="e9q-L2-9Gg"/>
+                                                        <constraint firstAttribute="width" constant="67" id="j4B-JQ-Orc"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtD-qO-X4b">
+                                                    <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                    <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="67" id="fPF-Tu-161"/>
+                                                        <constraint firstAttribute="width" constant="67" id="iu7-zO-EWu"/>
+                                                    </constraints>
+                                                    <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" image="strings"/>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="QJ4-fP-d4M">
+                                            <rect key="frame" x="0.0" y="75" width="148" height="67"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zEc-0U-6AA">
+                                                    <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiU-Zb-vbI">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="synth"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="67" id="AAv-nN-YCM"/>
+                                                        <constraint firstAttribute="width" constant="67" id="ndb-SN-uI0"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gYV-v7-9vv">
+                                                    <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rG0-C5-4IT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="synth"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="67" id="96w-np-i5H"/>
+                                                        <constraint firstAttribute="height" constant="67" id="ike-lI-Pga"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="Npg-cI-bkt">
+                            <rect key="frame" x="0.0" y="280" width="360" height="142"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vom-tu-y4P">
+                                    <rect key="frame" x="0.0" y="0.0" width="148" height="142"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="LQy-T4-ZWK">
+                                            <rect key="frame" x="0.0" y="0.0" width="148" height="67"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yYF-eJ-0Hu">
+                                                    <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quF-BU-YUY">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="piano"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="67" id="5J6-IS-dLT"/>
+                                                        <constraint firstAttribute="height" constant="67" id="b5C-sE-l9R"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CNO-BV-a0s">
+                                                    <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGs-Mk-f5r">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="piano"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="67" id="4xD-g9-Wdx"/>
+                                                        <constraint firstAttribute="height" constant="67" id="avr-Tw-6Tu"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="rdK-gO-ssJ">
+                                            <rect key="frame" x="0.0" y="75" width="148" height="67"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eqT-2a-Iod">
+                                                    <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyo-k1-zlm">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="piano"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="67" id="CbS-VU-LJr"/>
+                                                        <constraint firstAttribute="width" constant="67" id="gpL-uh-S8u"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PLm-5v-vIM">
+                                                    <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPg-Kv-9H9">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="piano"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="67" id="6f3-6b-Ill"/>
+                                                        <constraint firstAttribute="width" constant="67" id="RH4-ej-g1M"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qex-Bx-DeK">
+                                    <rect key="frame" x="212" y="0.0" width="148" height="142"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="mUv-0L-dXl">
+                                            <rect key="frame" x="0.0" y="0.0" width="148" height="67"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="w8G-YK-prY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ovc-Oq-W0b">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="tune1"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="67" id="IcY-JV-ePr"/>
+                                                        <constraint firstAttribute="height" constant="67" id="rq6-cK-Dfk"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ey1-JJ-xYf">
+                                                    <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81r-f9-bRN">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="tune2"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="67" id="6Qm-AT-9eo"/>
+                                                        <constraint firstAttribute="width" constant="67" id="w0c-oS-8nn"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="XKU-uA-noV">
+                                            <rect key="frame" x="0.0" y="75" width="148" height="67"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Gb3-Fg-8pt">
+                                                    <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6h-Aa-Lg1">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="tune3"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="67" id="2mU-ka-UIF"/>
+                                                        <constraint firstAttribute="width" constant="67" id="Ua6-Db-bsc"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BTi-jw-cgh">
+                                                    <rect key="frame" x="81" y="0.0" width="67" height="67"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaB-AQ-iNw">
+                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                            <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="tune4"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="67" id="oIn-2P-PCE"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLd-sy-sWI">
+                    <rect key="frame" x="170" y="775" width="74" height="35"/>
+                    <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Mcy-hP-qd4"/>
+                        <constraint firstAttribute="width" constant="74" id="kAC-Yy-SEW"/>
+                    </constraints>
+                    <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="PLAY"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="igA-Nc-acy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1Mc-I3-UCZ"/>
+                <constraint firstItem="igA-Nc-acy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ej0-8s-ZlR"/>
+                <constraint firstItem="dLd-sy-sWI" firstAttribute="leading" secondItem="igA-Nc-acy" secondAttribute="leading" constant="143" id="uDx-Ng-yDt"/>
+            </constraints>
+            <connections>
+                <outlet property="bassKick" destination="IUO-A5-DET" id="vHk-Mx-aZS"/>
+                <outlet property="clap" destination="cTI-pa-5DC" id="IWh-9m-sEc"/>
+                <outlet property="cymbol" destination="grk-oX-K3K" id="ex2-r3-Vwb"/>
+                <outlet property="piano1" destination="quF-BU-YUY" id="Uqs-g2-o9o"/>
+                <outlet property="piano2" destination="IGs-Mk-f5r" id="svd-AR-KdP"/>
+                <outlet property="piano3" destination="hyo-k1-zlm" id="0ec-my-nnK"/>
+                <outlet property="piano4" destination="NPg-Kv-9H9" id="T0k-fe-eWz"/>
+                <outlet property="playButton" destination="dLd-sy-sWI" id="Xh2-xl-62C"/>
+                <outlet property="snare" destination="1iI-2v-yZ4" id="hpg-t4-3kR"/>
+                <outlet property="strings1" destination="VSJ-73-5iK" id="Vs0-ug-6qU"/>
+                <outlet property="strings2" destination="qtD-qO-X4b" id="U8T-Qi-CMl"/>
+                <outlet property="synth1" destination="jiU-Zb-vbI" id="IUp-uv-kBv"/>
+                <outlet property="synth2" destination="rG0-C5-4IT" id="izU-Pf-oWY"/>
+                <outlet property="tune1" destination="Ovc-Oq-W0b" id="3ej-Bz-4mW"/>
+                <outlet property="tune2" destination="81r-f9-bRN" id="vbo-63-QhO"/>
+                <outlet property="tune3" destination="J6h-Aa-Lg1" id="Bxk-tN-sgw"/>
+                <outlet property="tune4" destination="gaB-AQ-iNw" id="8CA-HS-ZEj"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="94"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Image" width="200" height="200"/>
+        <image name="bass kick" width="200" height="200"/>
+        <image name="cymbol" width="200" height="200"/>
+        <image name="piano" width="64" height="64"/>
+        <image name="snare" width="500" height="500"/>
+        <image name="strings" width="64" height="64"/>
+        <image name="synth" width="64" height="64"/>
+        <image name="tune1" width="32" height="52"/>
+        <image name="tune2" width="64" height="64"/>
+        <image name="tune3" width="64" height="64"/>
+        <image name="tune4" width="80" height="67"/>
+    </resources>
+</document>

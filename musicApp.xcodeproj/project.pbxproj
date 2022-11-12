@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6B931447291BE6F600C36730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B931446291BE6F600C36730 /* AppDelegate.swift */; };
 		6B931449291BE6F600C36730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B931448291BE6F600C36730 /* SceneDelegate.swift */; };
-		6B93144B291BE6F600C36730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93144A291BE6F600C36730 /* ViewController.swift */; };
 		6B93144E291BE6F600C36730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B93144C291BE6F600C36730 /* Main.storyboard */; };
 		6B931451291BE6F600C36730 /* musicApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B93144F291BE6F600C36730 /* musicApp.xcdatamodeld */; };
 		6B931453291BE70200C36730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B931452291BE70200C36730 /* Assets.xcassets */; };
@@ -17,6 +16,26 @@
 		6B931461291BE70300C36730 /* musicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B931460291BE70300C36730 /* musicAppTests.swift */; };
 		6B93146B291BE70300C36730 /* musicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93146A291BE70300C36730 /* musicAppUITests.swift */; };
 		6B93146D291BE70300C36730 /* musicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93146C291BE70300C36730 /* musicAppUITestsLaunchTests.swift */; };
+		6B93148A291BF8D400C36730 /* FX Kick Builds FX_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B93147A291BF8D200C36730 /* FX Kick Builds FX_1.wav */; };
+		6B93148B291BF8D400C36730 /* Harmony Piano Major 1 Harmony_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B93147B291BF8D200C36730 /* Harmony Piano Major 1 Harmony_1.wav */; };
+		6B93148C291BF8D400C36730 /* Harmony Piano Minor 1 Harmony_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B93147C291BF8D200C36730 /* Harmony Piano Minor 1 Harmony_1.wav */; };
+		6B93148D291BF8D400C36730 /* Beat Dance Off Beat_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B93147D291BF8D300C36730 /* Beat Dance Off Beat_1.wav */; };
+		6B93148E291BF8D400C36730 /* FX Backwards Piano FX_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B93147E291BF8D300C36730 /* FX Backwards Piano FX_1.wav */; };
+		6B93148F291BF8D400C36730 /* Harmony Piano Major 2 Harmony_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B93147F291BF8D300C36730 /* Harmony Piano Major 2 Harmony_1.wav */; };
+		6B931490291BF8D400C36730 /* Melody String Melody 2_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931480291BF8D300C36730 /* Melody String Melody 2_1.wav */; };
+		6B931491291BF8D400C36730 /* Harmony Piano Major 3 Harmony_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931481291BF8D300C36730 /* Harmony Piano Major 3 Harmony_1.wav */; };
+		6B931492291BF8D400C36730 /* Cymbol.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931482291BF8D300C36730 /* Cymbol.wav */; };
+		6B931493291BF8D400C36730 /* Beat Only Kick Beat_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931483291BF8D300C36730 /* Beat Only Kick Beat_1.wav */; };
+		6B931494291BF8D400C36730 /* Melody Synth Melody 1_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931484291BF8D400C36730 /* Melody Synth Melody 1_1.wav */; };
+		6B931495291BF8D400C36730 /* Melody Synth Melody 2_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931485291BF8D400C36730 /* Melody Synth Melody 2_1.wav */; };
+		6B931496291BF8D400C36730 /* Beat Full Beat_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931486291BF8D400C36730 /* Beat Full Beat_1.wav */; };
+		6B931497291BF8D400C36730 /* Snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931487291BF8D400C36730 /* Snare.wav */; };
+		6B931498291BF8D400C36730 /* Melody String Melody 1_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931488291BF8D400C36730 /* Melody String Melody 1_1.wav */; };
+		6B931499291BF8D400C36730 /* Clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B931489291BF8D400C36730 /* Clap.wav */; };
+		6B93149C291BFC1700C36730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93149B291BFC1700C36730 /* ViewController.swift */; };
+		6B9A216629200B2100481F73 /* page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A216529200B2100481F73 /* page2ViewController.swift */; };
+		6B9A2168292047F800481F73 /* page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A2167292047F800481F73 /* page3ViewController.swift */; };
+		6B9A216A2920482900481F73 /* page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A21692920482900481F73 /* page4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +59,6 @@
 		6B931443291BE6F600C36730 /* musicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B931446291BE6F600C36730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B931448291BE6F600C36730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B93144A291BE6F600C36730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B93144D291BE6F600C36730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B931450291BE6F600C36730 /* musicApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = musicApp.xcdatamodel; sourceTree = "<group>"; };
 		6B931452291BE70200C36730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +69,26 @@
 		6B931466291BE70300C36730 /* musicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B93146A291BE70300C36730 /* musicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicAppUITests.swift; sourceTree = "<group>"; };
 		6B93146C291BE70300C36730 /* musicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B93147A291BF8D200C36730 /* FX Kick Builds FX_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "FX Kick Builds FX_1.wav"; sourceTree = "<group>"; };
+		6B93147B291BF8D200C36730 /* Harmony Piano Major 1 Harmony_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Harmony Piano Major 1 Harmony_1.wav"; sourceTree = "<group>"; };
+		6B93147C291BF8D200C36730 /* Harmony Piano Minor 1 Harmony_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Harmony Piano Minor 1 Harmony_1.wav"; sourceTree = "<group>"; };
+		6B93147D291BF8D300C36730 /* Beat Dance Off Beat_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Beat Dance Off Beat_1.wav"; sourceTree = "<group>"; };
+		6B93147E291BF8D300C36730 /* FX Backwards Piano FX_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "FX Backwards Piano FX_1.wav"; sourceTree = "<group>"; };
+		6B93147F291BF8D300C36730 /* Harmony Piano Major 2 Harmony_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Harmony Piano Major 2 Harmony_1.wav"; sourceTree = "<group>"; };
+		6B931480291BF8D300C36730 /* Melody String Melody 2_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Melody String Melody 2_1.wav"; sourceTree = "<group>"; };
+		6B931481291BF8D300C36730 /* Harmony Piano Major 3 Harmony_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Harmony Piano Major 3 Harmony_1.wav"; sourceTree = "<group>"; };
+		6B931482291BF8D300C36730 /* Cymbol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cymbol.wav; sourceTree = "<group>"; };
+		6B931483291BF8D300C36730 /* Beat Only Kick Beat_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Beat Only Kick Beat_1.wav"; sourceTree = "<group>"; };
+		6B931484291BF8D400C36730 /* Melody Synth Melody 1_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Melody Synth Melody 1_1.wav"; sourceTree = "<group>"; };
+		6B931485291BF8D400C36730 /* Melody Synth Melody 2_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Melody Synth Melody 2_1.wav"; sourceTree = "<group>"; };
+		6B931486291BF8D400C36730 /* Beat Full Beat_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Beat Full Beat_1.wav"; sourceTree = "<group>"; };
+		6B931487291BF8D400C36730 /* Snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snare.wav; sourceTree = "<group>"; };
+		6B931488291BF8D400C36730 /* Melody String Melody 1_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Melody String Melody 1_1.wav"; sourceTree = "<group>"; };
+		6B931489291BF8D400C36730 /* Clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clap.wav; sourceTree = "<group>"; };
+		6B93149B291BFC1700C36730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B9A216529200B2100481F73 /* page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2ViewController.swift; sourceTree = "<group>"; };
+		6B9A2167292047F800481F73 /* page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3ViewController.swift; sourceTree = "<group>"; };
+		6B9A21692920482900481F73 /* page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +116,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B299392291EA65300E51AE3 /* drums */ = {
+			isa = PBXGroup;
+			children = (
+				6B931489291BF8D400C36730 /* Clap.wav */,
+				6B931483291BF8D300C36730 /* Beat Only Kick Beat_1.wav */,
+				6B931482291BF8D300C36730 /* Cymbol.wav */,
+				6B931487291BF8D400C36730 /* Snare.wav */,
+			);
+			path = drums;
+			sourceTree = "<group>";
+		};
+		6B299393291EA66A00E51AE3 /* melody */ = {
+			isa = PBXGroup;
+			children = (
+				6B931488291BF8D400C36730 /* Melody String Melody 1_1.wav */,
+				6B931480291BF8D300C36730 /* Melody String Melody 2_1.wav */,
+				6B931484291BF8D400C36730 /* Melody Synth Melody 1_1.wav */,
+				6B931485291BF8D400C36730 /* Melody Synth Melody 2_1.wav */,
+			);
+			path = melody;
+			sourceTree = "<group>";
+		};
+		6B299394291EA68800E51AE3 /* piano harmony */ = {
+			isa = PBXGroup;
+			children = (
+				6B93147B291BF8D200C36730 /* Harmony Piano Major 1 Harmony_1.wav */,
+				6B93147F291BF8D300C36730 /* Harmony Piano Major 2 Harmony_1.wav */,
+				6B931481291BF8D300C36730 /* Harmony Piano Major 3 Harmony_1.wav */,
+				6B93147C291BF8D200C36730 /* Harmony Piano Minor 1 Harmony_1.wav */,
+			);
+			path = "piano harmony";
+			sourceTree = "<group>";
+		};
+		6B299395291EA69A00E51AE3 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				6B93147D291BF8D300C36730 /* Beat Dance Off Beat_1.wav */,
+				6B931486291BF8D400C36730 /* Beat Full Beat_1.wav */,
+				6B93147E291BF8D300C36730 /* FX Backwards Piano FX_1.wav */,
+				6B93147A291BF8D200C36730 /* FX Kick Builds FX_1.wav */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
 		6B93143A291BE6F600C36730 = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +185,10 @@
 			children = (
 				6B931446291BE6F600C36730 /* AppDelegate.swift */,
 				6B931448291BE6F600C36730 /* SceneDelegate.swift */,
-				6B93144A291BE6F600C36730 /* ViewController.swift */,
+				6B93149A291BF8F200C36730 /* view controllers */,
 				6B93144C291BE6F600C36730 /* Main.storyboard */,
 				6B931452291BE70200C36730 /* Assets.xcassets */,
+				6B931479291BF8C200C36730 /* sounds */,
 				6B931454291BE70200C36730 /* LaunchScreen.storyboard */,
 				6B931457291BE70200C36730 /* Info.plist */,
 				6B93144F291BE6F600C36730 /* musicApp.xcdatamodeld */,
@@ -128,6 +211,28 @@
 				6B93146C291BE70300C36730 /* musicAppUITestsLaunchTests.swift */,
 			);
 			path = musicAppUITests;
+			sourceTree = "<group>";
+		};
+		6B931479291BF8C200C36730 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6B299395291EA69A00E51AE3 /* others */,
+				6B299394291EA68800E51AE3 /* piano harmony */,
+				6B299393291EA66A00E51AE3 /* melody */,
+				6B299392291EA65300E51AE3 /* drums */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		6B93149A291BF8F200C36730 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B93149B291BFC1700C36730 /* ViewController.swift */,
+				6B9A216529200B2100481F73 /* page2ViewController.swift */,
+				6B9A2167292047F800481F73 /* page3ViewController.swift */,
+				6B9A21692920482900481F73 /* page4ViewController.swift */,
+			);
+			path = "view controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +339,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B931492291BF8D400C36730 /* Cymbol.wav in Resources */,
+				6B93148A291BF8D400C36730 /* FX Kick Builds FX_1.wav in Resources */,
 				6B931456291BE70200C36730 /* LaunchScreen.storyboard in Resources */,
+				6B93148B291BF8D400C36730 /* Harmony Piano Major 1 Harmony_1.wav in Resources */,
 				6B931453291BE70200C36730 /* Assets.xcassets in Resources */,
+				6B93148E291BF8D400C36730 /* FX Backwards Piano FX_1.wav in Resources */,
+				6B931490291BF8D400C36730 /* Melody String Melody 2_1.wav in Resources */,
+				6B93148C291BF8D400C36730 /* Harmony Piano Minor 1 Harmony_1.wav in Resources */,
+				6B931498291BF8D400C36730 /* Melody String Melody 1_1.wav in Resources */,
 				6B93144E291BE6F600C36730 /* Main.storyboard in Resources */,
+				6B931495291BF8D400C36730 /* Melody Synth Melody 2_1.wav in Resources */,
+				6B931491291BF8D400C36730 /* Harmony Piano Major 3 Harmony_1.wav in Resources */,
+				6B931496291BF8D400C36730 /* Beat Full Beat_1.wav in Resources */,
+				6B931493291BF8D400C36730 /* Beat Only Kick Beat_1.wav in Resources */,
+				6B93148D291BF8D400C36730 /* Beat Dance Off Beat_1.wav in Resources */,
+				6B931497291BF8D400C36730 /* Snare.wav in Resources */,
+				6B931494291BF8D400C36730 /* Melody Synth Melody 1_1.wav in Resources */,
+				6B931499291BF8D400C36730 /* Clap.wav in Resources */,
+				6B93148F291BF8D400C36730 /* Harmony Piano Major 2 Harmony_1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +382,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B93144B291BE6F600C36730 /* ViewController.swift in Sources */,
+				6B9A216629200B2100481F73 /* page2ViewController.swift in Sources */,
 				6B931447291BE6F600C36730 /* AppDelegate.swift in Sources */,
 				6B931449291BE6F600C36730 /* SceneDelegate.swift in Sources */,
+				6B93149C291BFC1700C36730 /* ViewController.swift in Sources */,
+				6B9A216A2920482900481F73 /* page4ViewController.swift in Sources */,
 				6B931451291BE6F600C36730 /* musicApp.xcdatamodeld in Sources */,
+				6B9A2168292047F800481F73 /* page3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
