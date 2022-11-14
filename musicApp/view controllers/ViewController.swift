@@ -10,7 +10,7 @@ import AVFoundation
 
 class ViewController: UIViewController, UIScrollViewDelegate {
 
-    var play: AVAudioPlayer!
+    var play: AVAudioPlayer! //to initialise player
     var time: Timer!
     var isPlaying = false {
         didSet {
@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     
     @IBOutlet weak var playButton: UIButton!
-    
+    //button outlets to select and deselect
     @IBOutlet weak var cymbol: UIButton!
     @IBOutlet weak var clap: UIButton!
     @IBOutlet weak var snare: UIButton!
@@ -42,6 +42,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var tune2: UIButton!
     @IBOutlet weak var tune4: UIButton!
     
+    //not in use
     let scrollViewer = UIScrollView()
     var pageControl: UIPageControl {
         let pageControl = UIPageControl()
@@ -52,6 +53,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //basic button design prompts
         cymbol.layer.cornerRadius = 9.0
         cymbol.layer.masksToBounds = true
         cymbol.layer.borderWidth = 1.5
@@ -69,6 +71,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         kick.layer.borderWidth = 1.5
         kick.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
     }
+    
+    //to set state(play or pause) of the button
     func setButtonState() {
        if isPlaying {
          playButton.setTitle("Pause", for: .normal)
@@ -76,7 +80,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
          playButton.setTitle("Play", for: .normal)
        }
      }
-     
+     //pause or play audio
      func playPauseAudio() {
        guard let play = play
          else {
@@ -116,9 +120,10 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     @IBAction func clapTapped(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "Clap", ofType:"wav")!
-        let url = URL(fileURLWithPath: path)
-            clap.isEnabled = false
+        let path = Bundle.main.path(forResource: "Clap", ofType:"wav")! //to fetch audio
+        let url = URL(fileURLWithPath: path) //to use url path of the audio
+        
+            clap.isEnabled = false //to select deselect button(same for all)
             cymbol.isEnabled = true
             snare.isEnabled = true
             kick.isEnabled = true
@@ -347,13 +352,13 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     
+}
     
     
     
     
     
-    
-    
+//-------------------------------------------------not in use------------------------------------------------------
     
     
     
@@ -565,6 +570,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 //            return
 //        }
 
-}
+//}
 
 
