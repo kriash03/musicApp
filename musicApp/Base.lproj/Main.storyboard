@@ -614,7 +614,7 @@
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="YgA-xf-cgP"/>
+                                                                            <action selector="clapTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="CNH-s2-HBT"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffj-zP-ZRW">
@@ -628,7 +628,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="cymbol"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="FVq-J8-pru"/>
+                                                                            <action selector="cymbol:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="px5-Dw-3kw"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -648,7 +648,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" title="snare" image="snare"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="YSp-I7-4R4"/>
+                                                                            <action selector="snareTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="Pzc-JD-x1y"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ClA-j9-FmG">
@@ -662,7 +662,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="bass kick"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="MXa-GA-Fc6"/>
+                                                                            <action selector="bassTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="NfZ-LO-TmS"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -687,7 +687,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="strings"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="EpI-Cg-bY7"/>
+                                                                            <action selector="strings1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="gOK-tS-Grt"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -707,7 +707,7 @@
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="strings"/>
                                                                 <connections>
-                                                                    <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="PXa-iq-91B"/>
+                                                                    <action selector="strings2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="np6-Kn-h8H"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -725,7 +725,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="synth"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="cdb-X6-GcA"/>
+                                                                            <action selector="synth1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="iwk-gh-WbW"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -744,7 +744,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="synth"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="z2X-l0-AhG"/>
+                                                                            <action selector="synth2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="f2r-fz-nLE"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -778,7 +778,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="WN9-7O-3FH"/>
+                                                                            <action selector="piano1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="anh-ob-InK"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -797,7 +797,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="ZDf-mh-kYI"/>
+                                                                            <action selector="piano2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="a2V-gD-hW3"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -821,7 +821,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="sWh-rQ-Aj5"/>
+                                                                            <action selector="piano3Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="mBs-sd-eDU"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -840,7 +840,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="quG-Rq-GlO"/>
+                                                                            <action selector="piano4Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="VrQ-UE-iwS"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -869,7 +869,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune1"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="lrL-gM-YGK"/>
+                                                                            <action selector="tune1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="hZK-z1-Nxi"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -888,7 +888,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune2"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="44y-IV-I23"/>
+                                                                            <action selector="tune2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="zG2-0C-Bo1"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -912,7 +912,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune3"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="yzB-Qw-OW8"/>
+                                                                            <action selector="tune3Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="fJS-lz-W8v"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -931,7 +931,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune4"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="y3k-JR-1bK"/>
+                                                                            <action selector="tune4Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="3QH-Ll-0es"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -958,6 +958,9 @@
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="PLAY"/>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="xfP-Ww-IhK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmn-9r-ueg">
                                 <rect key="frame" x="20" y="93" width="88" height="31"/>
@@ -1015,6 +1018,25 @@
                             <constraint firstItem="pgC-MN-Jna" firstAttribute="centerY" secondItem="iKY-WG-C7j" secondAttribute="centerY" id="uyQ-h3-Yxl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clap" destination="IBi-yp-rlx" id="hFu-MT-gku"/>
+                        <outlet property="cymbol" destination="Ffj-zP-ZRW" id="1yV-x6-Zis"/>
+                        <outlet property="kick" destination="ClA-j9-FmG" id="7Ku-3B-fEc"/>
+                        <outlet property="piano1" destination="8lF-uC-rdi" id="6Ic-Ub-GKa"/>
+                        <outlet property="piano2" destination="E7c-5x-uaH" id="rD9-wT-Eoe"/>
+                        <outlet property="piano3" destination="Bvn-Na-9z2" id="GXd-g3-UYc"/>
+                        <outlet property="piano4" destination="hMD-iR-cpb" id="cxB-ff-0CF"/>
+                        <outlet property="playButton" destination="ZdC-eL-AZg" id="RLu-80-Sho"/>
+                        <outlet property="snare" destination="fBT-jj-y82" id="yrg-4M-Hs0"/>
+                        <outlet property="strings1" destination="wK7-lb-o8D" id="eVQ-dU-Owr"/>
+                        <outlet property="strings2" destination="Szx-Hy-yAL" id="Zet-Bl-F8M"/>
+                        <outlet property="synth1" destination="Wpv-bF-i46" id="qg6-vo-Log"/>
+                        <outlet property="synth2" destination="A3U-b6-Mpu" id="SSL-fI-3Ru"/>
+                        <outlet property="tune1" destination="Zfn-XA-hM5" id="Qjt-Ab-eDb"/>
+                        <outlet property="tune2" destination="p2q-HT-XKT" id="1ed-eE-qDr"/>
+                        <outlet property="tune3" destination="niQ-iq-Q1S" id="Jnr-w4-FZD"/>
+                        <outlet property="tune4" destination="PeL-zz-gO0" id="h96-Hm-ejg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ADh-w8-nPb" sceneMemberID="firstResponder"/>
             </objects>
@@ -1135,7 +1157,7 @@
                                                                                             </userDefinedRuntimeAttribute>
                                                                                         </userDefinedRuntimeAttributes>
                                                                                         <connections>
-                                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="sT3-kn-Wuw"/>
+                                                                                            <action selector="clapTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="9x6-ae-9Jb"/>
                                                                                         </connections>
                                                                                     </button>
                                                                                 </subviews>
@@ -1157,7 +1179,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="cymbol"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="EG5-aX-RYb"/>
+                                                                            <action selector="cymbol:" destination="j7h-5I-LjF" eventType="touchUpInside" id="di9-ke-iUY"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1177,7 +1199,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" title="snare" image="snare"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="QVt-Kc-qJx"/>
+                                                                            <action selector="snareTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="h1A-1U-Qvi"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcR-Il-Fos">
@@ -1191,7 +1213,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="bass kick"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="WuF-W3-LLC"/>
+                                                                            <action selector="bassTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="bk1-Qj-o13"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1216,7 +1238,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="strings"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="hA8-Zr-JgZ"/>
+                                                                            <action selector="strings1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="r0L-hu-b02"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1236,7 +1258,7 @@
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="strings"/>
                                                                 <connections>
-                                                                    <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="AXy-yc-BfG"/>
+                                                                    <action selector="strings2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="4D6-M5-h8i"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -1254,7 +1276,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="synth"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="Kl3-ln-xfc"/>
+                                                                            <action selector="synth1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="rab-kp-6kr"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1273,7 +1295,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="synth"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="ZKH-1a-cGu"/>
+                                                                            <action selector="synth2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="ZuO-bo-hTd"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1307,7 +1329,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="KKj-fi-p8l"/>
+                                                                            <action selector="piano1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="Nd7-ef-QTX"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1326,7 +1348,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="ams-nM-8pL"/>
+                                                                            <action selector="piano2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="c5J-hM-JK0"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1350,7 +1372,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="7xN-xo-Lff"/>
+                                                                            <action selector="piano3Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="awP-8C-xv5"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1369,7 +1391,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="zC3-lv-ZCF"/>
+                                                                            <action selector="piano4Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="C7s-Vm-6YE"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1398,7 +1420,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune1"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="5Vo-Wc-Hp4"/>
+                                                                            <action selector="tune1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="PWu-sa-Rid"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1417,7 +1439,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune2"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="Rrz-qs-69G"/>
+                                                                            <action selector="tune2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="Vbj-nJ-fIo"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1441,7 +1463,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune3"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="Q8Q-5T-nns"/>
+                                                                            <action selector="tune3Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="3Rx-cI-sux"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1460,7 +1482,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune4"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="mgL-of-1Ve"/>
+                                                                            <action selector="tune4Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="uvZ-Nf-iKf"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1491,6 +1513,9 @@
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="PLAY"/>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="CEQ-Ca-BTN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zJP-TD-kwk"/>
@@ -1510,6 +1535,25 @@
                             <constraint firstItem="zJP-TD-kwk" firstAttribute="trailing" secondItem="sUE-lg-E8W" secondAttribute="trailing" constant="34" id="zhT-A0-gZC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clap" destination="vVa-LR-MXQ" id="cEh-Sd-nFw"/>
+                        <outlet property="cymbol" destination="zaU-ss-zAr" id="fkI-pU-hCa"/>
+                        <outlet property="kick" destination="AcR-Il-Fos" id="YQt-KK-XKy"/>
+                        <outlet property="piano1" destination="OLi-HF-Ytc" id="e6V-FA-2pp"/>
+                        <outlet property="piano2" destination="eSJ-Fe-W8L" id="5Ux-kP-Rgw"/>
+                        <outlet property="piano3" destination="6Lx-GB-Go4" id="UT3-4F-sKh"/>
+                        <outlet property="piano4" destination="AqU-cK-CVy" id="gOU-ow-ZuH"/>
+                        <outlet property="playButton" destination="sUE-lg-E8W" id="2kr-kW-VOz"/>
+                        <outlet property="snare" destination="KaM-1Q-I4x" id="AbB-zi-9dx"/>
+                        <outlet property="strings1" destination="QZN-ep-GOz" id="ved-XZ-mIo"/>
+                        <outlet property="strings2" destination="5L4-xU-gWN" id="Rtk-cb-VKN"/>
+                        <outlet property="synth1" destination="X5W-yy-Okb" id="BxL-SR-RZ7"/>
+                        <outlet property="synth2" destination="Ztp-NV-tKY" id="nRX-cP-l0z"/>
+                        <outlet property="tune1" destination="aTo-vS-3G7" id="Xui-5f-ylT"/>
+                        <outlet property="tune2" destination="Z62-k8-Lan" id="u3C-0m-EcG"/>
+                        <outlet property="tune3" destination="gSC-7v-ygw" id="b4y-EB-4hp"/>
+                        <outlet property="tune4" destination="2Kh-Ya-bvo" id="ckr-lZ-qFd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZJn-gz-YSb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1556,7 +1600,7 @@
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="csR-Ez-pXa"/>
+                                                                            <action selector="clapTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="l8e-hl-rHI"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pwf-p0-ITa">
@@ -1570,7 +1614,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="cymbol"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="xp3-P4-0qg"/>
+                                                                            <action selector="cymbol:" destination="frv-gM-20q" eventType="touchUpInside" id="XV5-v9-aBG"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1590,7 +1634,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" title="snare" image="snare"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="phA-lT-Wno"/>
+                                                                            <action selector="snareTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="ymN-hD-nDv"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qtb-g4-Gjp">
@@ -1604,7 +1648,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="bass kick"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="VHf-X0-X84"/>
+                                                                            <action selector="bassTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Vs9-BF-9nm"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1629,7 +1673,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="strings"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="JpW-bg-aqO"/>
+                                                                            <action selector="strings1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="GcX-hJ-j5z"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1649,7 +1693,7 @@
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="strings"/>
                                                                 <connections>
-                                                                    <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="yk1-Wc-oJm"/>
+                                                                    <action selector="strings2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="V9Y-Oj-cya"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -1667,7 +1711,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="synth"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="aOe-YA-s5Z"/>
+                                                                            <action selector="synth1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Wlb-qh-k9r"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1686,7 +1730,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="synth"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="gbj-qm-9Wd"/>
+                                                                            <action selector="synth2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="VgX-Fl-qPe"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1720,7 +1764,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="3T1-Pi-GJ7"/>
+                                                                            <action selector="piano1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="uzN-zC-akl"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1739,7 +1783,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="uBW-r9-jSn"/>
+                                                                            <action selector="piano2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Wml-nX-vqr"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1763,7 +1807,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="uO7-s3-F5a"/>
+                                                                            <action selector="piano3Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Ggn-2e-OxR"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1782,7 +1826,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="piano"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="3LC-pK-cy5"/>
+                                                                            <action selector="piano4Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="eGa-SY-dbz"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1811,7 +1855,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune1"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="kEQ-Pl-Rm8"/>
+                                                                            <action selector="tune1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="rBD-Zj-tJs"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1830,7 +1874,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune2"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Dfq-bi-27w"/>
+                                                                            <action selector="tune2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="aGg-1h-CoV"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1854,7 +1898,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune3"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="OFF-sX-RI2"/>
+                                                                            <action selector="tune3Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="ebQ-Aa-fg8"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1873,7 +1917,7 @@
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="tune4"/>
                                                                         <connections>
-                                                                            <action selector="tuneTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="gMH-td-Ab1"/>
+                                                                            <action selector="tune4Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="FRm-bi-4Kl"/>
                                                                         </connections>
                                                                     </button>
                                                                 </subviews>
@@ -1904,6 +1948,9 @@
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="PLAY"/>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="ve4-jt-fJi"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="PnP-Ts-FXu">
                                 <rect key="frame" x="20" y="93" width="388" height="31"/>
@@ -1991,6 +2038,25 @@
                             <constraint firstItem="JZM-iJ-GQW" firstAttribute="bottom" secondItem="MOg-L7-JNq" secondAttribute="bottom" constant="218" id="tRy-sI-3Rc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clap" destination="RSk-XL-p2G" id="BS1-hZ-gPN"/>
+                        <outlet property="cymbol" destination="Pwf-p0-ITa" id="m5e-cG-ecn"/>
+                        <outlet property="kick" destination="Qtb-g4-Gjp" id="efG-KP-61g"/>
+                        <outlet property="piano1" destination="PMz-c2-cWD" id="OdJ-MQ-lma"/>
+                        <outlet property="piano2" destination="nWY-Ms-cWi" id="wB4-Yl-mLI"/>
+                        <outlet property="piano3" destination="Tad-Fp-wiu" id="4z9-Hd-iCT"/>
+                        <outlet property="piano4" destination="egL-6Z-YpV" id="xWH-Cq-dWx"/>
+                        <outlet property="playButton" destination="2Q8-V8-xxQ" id="v2j-ey-keN"/>
+                        <outlet property="snare" destination="QhL-tk-fpX" id="PUn-Jp-bAp"/>
+                        <outlet property="strings1" destination="adf-ND-Slc" id="9SS-eB-IRm"/>
+                        <outlet property="strings2" destination="eXm-DC-W0P" id="3uK-qA-5fm"/>
+                        <outlet property="synth1" destination="8bh-jL-fQ3" id="Iob-xn-ZBI"/>
+                        <outlet property="synth2" destination="fet-bC-wcs" id="i8T-61-Myy"/>
+                        <outlet property="tune1" destination="og3-kb-0rX" id="IkB-ue-Ffd"/>
+                        <outlet property="tune2" destination="hmI-Om-kBy" id="Ltf-qg-PUk"/>
+                        <outlet property="tune3" destination="0g5-Iw-tG5" id="fgr-lW-Zg6"/>
+                        <outlet property="tune4" destination="gP6-4m-mCK" id="lGm-H7-Clu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fa8-09-4fn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
