@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,57 +15,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2M-ut-D1r">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2M-ut-D1r">
                                 <rect key="frame" x="34" y="793" width="360" height="35"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="UC1-Bp-D5X"/>
                                     <constraint firstAttribute="height" constant="35" id="uMb-kf-40p"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="PLAY"/>
+                                <state key="normal" image="Group 31"/>
                                 <connections>
+                                    <action selector="picker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6sj-JQ-OKY"/>
                                     <action selector="playButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ewr-nr-sZE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB8-9r-HZG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB8-9r-HZG">
                                 <rect key="frame" x="20" y="94" width="88" height="31"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="1"/>
+                                <state key="normal" image="Group 28"/>
                                 <connections>
                                     <action selector="button1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KbQ-Lc-97X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEY-rq-YLd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEY-rq-YLd">
                                 <rect key="frame" x="116" y="94" width="88" height="31"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" image="Group 30"/>
                                 <connections>
                                     <action selector="button2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0re-Id-HKV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIG-A7-UGv">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIG-A7-UGv">
                                 <rect key="frame" x="320" y="94" width="88" height="31"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="4"/>
+                                <state key="normal" image="Group 27"/>
                                 <connections>
                                     <action selector="button4Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fPg-qN-7eL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47z-WL-zgs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47z-WL-zgs">
                                 <rect key="frame" x="224" y="94" width="88" height="31"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="3"/>
+                                <state key="normal" image="Group 29"/>
                                 <connections>
                                     <action selector="button3Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BWD-Ip-UeT"/>
                                 </connections>
@@ -91,10 +85,10 @@
                                                                         <color key="backgroundColor" red="0.15294117647058825" green="0.15294117647058825" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="Image">
+                                                                        <state key="normal" image="Group 11">
                                                                             <color key="titleShadowColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </state>
-                                                                        <state key="selected" image="clap blur">
+                                                                        <state key="selected" image="Group 17">
                                                                             <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </state>
                                                                         <userDefinedRuntimeAttributes>
@@ -115,10 +109,10 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="cymbol">
+                                                                        <state key="normal" image="Group 14">
                                                                             <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </state>
-                                                                        <state key="selected" image="cymbol blur"/>
+                                                                        <state key="selected" image="Group 20"/>
                                                                         <connections>
                                                                             <action selector="cymbol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QDv-De-qTJ"/>
                                                                         </connections>
@@ -138,8 +132,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="snare" image="snare"/>
-                                                                        <state key="selected" image="snare blur"/>
+                                                                        <state key="normal" image="Group 13"/>
+                                                                        <state key="selected" image="Group 19"/>
                                                                         <connections>
                                                                             <action selector="snareTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vli-jW-pai"/>
                                                                         </connections>
@@ -153,8 +147,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="bass kick"/>
-                                                                        <state key="selected" image="bass blur"/>
+                                                                        <state key="normal" image="Group 12"/>
+                                                                        <state key="selected" image="Group 18"/>
                                                                         <connections>
                                                                             <action selector="bassTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uVs-it-b5b"/>
                                                                         </connections>
@@ -179,8 +173,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="strings"/>
-                                                                        <state key="selected" image="strings blur"/>
+                                                                        <state key="normal" image="Group 8"/>
+                                                                        <state key="selected" image="Group 22"/>
                                                                         <connections>
                                                                             <action selector="strings1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rGs-Kg-dKP"/>
                                                                         </connections>
@@ -200,8 +194,8 @@
                                                                 </constraints>
                                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="strings"/>
-                                                                <state key="selected" image="strings blur"/>
+                                                                <state key="normal" image="Group 8"/>
+                                                                <state key="selected" image="Group 22"/>
                                                                 <connections>
                                                                     <action selector="strings2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kOh-3h-DIl"/>
                                                                 </connections>
@@ -219,8 +213,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
-                                                                        <state key="selected" image="synth blur"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z3f-oU-yUF"/>
                                                                         </connections>
@@ -239,8 +233,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
-                                                                        <state key="selected" image="synth blur"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xGC-EJ-sTs"/>
                                                                         </connections>
@@ -274,8 +268,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
-                                                                        <state key="selected" image="piano blur"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OPi-1a-plH"/>
                                                                         </connections>
@@ -294,8 +288,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
-                                                                        <state key="selected" image="piano blur"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fGf-xv-Xf8"/>
                                                                         </connections>
@@ -319,8 +313,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
-                                                                        <state key="selected" image="piano blur"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano3Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNz-yx-Tok"/>
                                                                         </connections>
@@ -339,8 +333,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
-                                                                        <state key="selected" image="piano blur"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano4Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Re-6p-dsn"/>
                                                                         </connections>
@@ -369,8 +363,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune1"/>
-                                                                        <state key="selected" image="tune1 blur"/>
+                                                                        <state key="normal" image="Group 7"/>
+                                                                        <state key="selected" image="Group 26"/>
                                                                         <connections>
                                                                             <action selector="tune1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QkM-Zb-Jbz"/>
                                                                         </connections>
@@ -389,8 +383,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune2"/>
-                                                                        <state key="selected" image="tune2 blur"/>
+                                                                        <state key="normal" image="Group 3"/>
+                                                                        <state key="selected" image="Group 23"/>
                                                                         <connections>
                                                                             <action selector="tune2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NPT-NO-ejx"/>
                                                                         </connections>
@@ -414,8 +408,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune3"/>
-                                                                        <state key="selected" image="tune3 blur"/>
+                                                                        <state key="normal" image="Group 5"/>
+                                                                        <state key="selected" image="Group 24"/>
                                                                         <connections>
                                                                             <action selector="tune3Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="waR-i4-fDV"/>
                                                                         </connections>
@@ -434,8 +428,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune4"/>
-                                                                        <state key="selected" image="tune4 blur"/>
+                                                                        <state key="normal" image="Group 6"/>
+                                                                        <state key="selected" image="Group 25"/>
                                                                         <connections>
                                                                             <action selector="tune4Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YOA-FI-tbH"/>
                                                                         </connections>
@@ -455,7 +449,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ZY5-FJ-kPW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="208" id="0wb-wb-brz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZY5-FJ-kPW" secondAttribute="trailing" constant="34" id="2nE-8A-A3d"/>
@@ -509,70 +503,6 @@
             </objects>
             <point key="canvasLocation" x="33.644859813084111" y="83.585313174946009"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="scn-5Z-ioS">
-            <objects>
-                <viewController id="Vvg-PX-J1c" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SkM-NN-rw5">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JhT-UD-TRC">
-                                <rect key="frame" x="20" y="589" width="388" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <segments>
-                                    <segment title="1"/>
-                                    <segment title="2"/>
-                                    <segment title="3"/>
-                                    <segment title="4"/>
-                                </segments>
-                                <color key="selectedSegmentTintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Je-pE-MI4">
-                                <rect key="frame" x="243" y="392" width="65" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="cymbol"/>
-                                <state key="selected" image="Image"/>
-                            </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50O-9D-j0m">
-                                <rect key="frame" x="105" y="760" width="67" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="Image">
-                                    <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <state key="selected" image="clap blur">
-                                    <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="90"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="le6-fC-aHI">
-                                <rect key="frame" x="224" y="760" width="67" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="cymbol">
-                                    <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="WA5-7k-JWT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QWq-Eg-7mf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="521.49532710280369" y="-609.07127429805621"/>
-        </scene>
         <!--page2ViewController-->
         <scene sceneID="goR-uD-psV">
             <objects>
@@ -605,9 +535,10 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="Image">
+                                                                        <state key="normal" image="Group 11">
                                                                             <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </state>
+                                                                        <state key="selected" image="Group 17"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                                 <integer key="value" value="90"/>
@@ -626,7 +557,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="cymbol"/>
+                                                                        <state key="normal" image="Group 14"/>
+                                                                        <state key="selected" image="Group 20"/>
                                                                         <connections>
                                                                             <action selector="cymbol:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="px5-Dw-3kw"/>
                                                                         </connections>
@@ -646,7 +578,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="snare" image="snare"/>
+                                                                        <state key="normal" image="Group 13"/>
+                                                                        <state key="selected" image="Group 19"/>
                                                                         <connections>
                                                                             <action selector="snareTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="Pzc-JD-x1y"/>
                                                                         </connections>
@@ -660,7 +593,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="bass kick"/>
+                                                                        <state key="normal" image="Group 12"/>
+                                                                        <state key="selected" image="Group 18"/>
                                                                         <connections>
                                                                             <action selector="bassTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="NfZ-LO-TmS"/>
                                                                         </connections>
@@ -685,7 +619,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="strings"/>
+                                                                        <state key="normal" image="Group 8"/>
+                                                                        <state key="selected" image="Group 22"/>
                                                                         <connections>
                                                                             <action selector="strings1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="gOK-tS-Grt"/>
                                                                         </connections>
@@ -705,7 +640,8 @@
                                                                 </constraints>
                                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="strings"/>
+                                                                <state key="normal" image="Group 8"/>
+                                                                <state key="selected" image="Group 22"/>
                                                                 <connections>
                                                                     <action selector="strings2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="np6-Kn-h8H"/>
                                                                 </connections>
@@ -723,7 +659,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="iwk-gh-WbW"/>
                                                                         </connections>
@@ -742,7 +679,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="f2r-fz-nLE"/>
                                                                         </connections>
@@ -776,7 +714,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="anh-ob-InK"/>
                                                                         </connections>
@@ -795,7 +734,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="a2V-gD-hW3"/>
                                                                         </connections>
@@ -819,7 +759,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano3Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="mBs-sd-eDU"/>
                                                                         </connections>
@@ -838,7 +779,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano4Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="VrQ-UE-iwS"/>
                                                                         </connections>
@@ -867,7 +809,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune1"/>
+                                                                        <state key="normal" image="Group 7"/>
+                                                                        <state key="selected" image="Group 17"/>
                                                                         <connections>
                                                                             <action selector="tune1Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="hZK-z1-Nxi"/>
                                                                         </connections>
@@ -886,7 +829,7 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune2"/>
+                                                                        <state key="normal" image="Group 3"/>
                                                                         <connections>
                                                                             <action selector="tune2Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="zG2-0C-Bo1"/>
                                                                         </connections>
@@ -910,7 +853,7 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune3"/>
+                                                                        <state key="normal" image="Group 5"/>
                                                                         <connections>
                                                                             <action selector="tune3Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="fJS-lz-W8v"/>
                                                                         </connections>
@@ -929,7 +872,7 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune4"/>
+                                                                        <state key="normal" image="Group 6"/>
                                                                         <connections>
                                                                             <action selector="tune4Tapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="3QH-Ll-0es"/>
                                                                         </connections>
@@ -947,68 +890,62 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdC-eL-AZg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdC-eL-AZg">
                                 <rect key="frame" x="34" y="793" width="360" height="35"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="28m-ES-MfP"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="hKk-LK-drd"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="PLAY"/>
+                                <state key="normal" image="Group 31"/>
                                 <connections>
                                     <action selector="playButtonTapped:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="xfP-Ww-IhK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmn-9r-ueg">
-                                <rect key="frame" x="20" y="93" width="88" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmn-9r-ueg">
+                                <rect key="frame" x="23" y="97" width="82" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="1"/>
+                                <state key="normal" image="Group 28"/>
                                 <connections>
                                     <action selector="button1:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="BlU-hp-fyC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxI-ID-8gf">
-                                <rect key="frame" x="116" y="93" width="88" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxI-ID-8gf">
+                                <rect key="frame" x="119" y="97" width="82" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" image="Group 30"/>
                                 <connections>
                                     <action selector="button2:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="iO6-QI-dll"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4S-4J-X4K">
-                                <rect key="frame" x="224" y="93" width="88" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4S-4J-X4K">
+                                <rect key="frame" x="227" y="97" width="82" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="3"/>
+                                <state key="normal" image="Group 29"/>
                                 <connections>
                                     <action selector="button3:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="Btf-eA-UEp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTr-6y-Iu6">
-                                <rect key="frame" x="320" y="93" width="88" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTr-6y-Iu6">
+                                <rect key="frame" x="323" y="97" width="82" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="4"/>
+                                <state key="normal" image="Group 27"/>
                                 <connections>
                                     <action selector="button4:" destination="Oj5-Wz-4n4" eventType="touchUpInside" id="cq3-i3-q23"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mrc-Nt-Wkv"/>
-                        <color key="backgroundColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ZdC-eL-AZg" firstAttribute="top" secondItem="mrc-Nt-Wkv" secondAttribute="top" constant="749" id="GCp-o2-YTC"/>
                             <constraint firstItem="ZdC-eL-AZg" firstAttribute="leading" secondItem="pgC-MN-Jna" secondAttribute="leading" id="Im1-3a-YAO"/>
@@ -1056,29 +993,27 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BLo-Px-Hsl">
                                         <rect key="frame" x="0.0" y="0.0" width="184" height="31"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s11-Wx-54P">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s11-Wx-54P">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="31" id="bw4-5J-cej"/>
                                                     <constraint firstAttribute="width" constant="88" id="dR7-h6-WcI"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="1"/>
+                                                <state key="normal" image="Group 28"/>
                                                 <connections>
                                                     <action selector="button1:" destination="j7h-5I-LjF" eventType="touchUpInside" id="1yA-U9-vvd"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNw-JO-dMq">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNw-JO-dMq">
                                                 <rect key="frame" x="96" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="88" id="d64-Ar-Fho"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="2"/>
+                                                <state key="normal" image="Group 30"/>
                                                 <connections>
                                                     <action selector="button2:" destination="j7h-5I-LjF" eventType="touchUpInside" id="FIe-lm-cBf"/>
                                                 </connections>
@@ -1088,28 +1023,26 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="fdT-pv-Xht">
                                         <rect key="frame" x="205" y="0.0" width="183" height="31"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCj-Ov-pVY">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCj-Ov-pVY">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="88" id="Cqw-eP-uWo"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="3"/>
+                                                <state key="normal" image="Group 29"/>
                                                 <connections>
                                                     <action selector="button3:" destination="j7h-5I-LjF" eventType="touchUpInside" id="h8Y-uz-uOu"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRp-Fu-Rli">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRp-Fu-Rli">
                                                 <rect key="frame" x="95" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="88" id="Jub-Ro-ZE3"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="4"/>
+                                                <state key="normal" image="Group 27"/>
                                                 <connections>
                                                     <action selector="button4:" destination="j7h-5I-LjF" eventType="touchUpInside" id="eOv-lF-vUG"/>
                                                 </connections>
@@ -1148,7 +1081,7 @@
                                                                                         </constraints>
                                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                        <state key="normal" image="Image">
+                                                                                        <state key="normal" image="Group 11">
                                                                                             <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         </state>
                                                                                         <userDefinedRuntimeAttributes>
@@ -1177,7 +1110,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="cymbol"/>
+                                                                        <state key="normal" image="Group 14"/>
+                                                                        <state key="selected" image="Group 20"/>
                                                                         <connections>
                                                                             <action selector="cymbol:" destination="j7h-5I-LjF" eventType="touchUpInside" id="di9-ke-iUY"/>
                                                                         </connections>
@@ -1197,7 +1131,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="snare" image="snare"/>
+                                                                        <state key="normal" image="Group 13"/>
+                                                                        <state key="selected" image="Group 19"/>
                                                                         <connections>
                                                                             <action selector="snareTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="h1A-1U-Qvi"/>
                                                                         </connections>
@@ -1211,7 +1146,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="bass kick"/>
+                                                                        <state key="normal" image="Group 12"/>
+                                                                        <state key="selected" image="Group 18"/>
                                                                         <connections>
                                                                             <action selector="bassTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="bk1-Qj-o13"/>
                                                                         </connections>
@@ -1236,7 +1172,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="strings"/>
+                                                                        <state key="normal" image="Group 8"/>
+                                                                        <state key="selected" image="Group 22"/>
                                                                         <connections>
                                                                             <action selector="strings1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="r0L-hu-b02"/>
                                                                         </connections>
@@ -1256,7 +1193,8 @@
                                                                 </constraints>
                                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="strings"/>
+                                                                <state key="normal" image="Group 8"/>
+                                                                <state key="selected" image="Group 22"/>
                                                                 <connections>
                                                                     <action selector="strings2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="4D6-M5-h8i"/>
                                                                 </connections>
@@ -1274,7 +1212,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="rab-kp-6kr"/>
                                                                         </connections>
@@ -1293,7 +1232,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="ZuO-bo-hTd"/>
                                                                         </connections>
@@ -1327,7 +1267,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="Nd7-ef-QTX"/>
                                                                         </connections>
@@ -1346,7 +1287,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="c5J-hM-JK0"/>
                                                                         </connections>
@@ -1370,7 +1312,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano3Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="awP-8C-xv5"/>
                                                                         </connections>
@@ -1389,7 +1332,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano4Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="C7s-Vm-6YE"/>
                                                                         </connections>
@@ -1418,7 +1362,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune1"/>
+                                                                        <state key="normal" image="Group 7"/>
+                                                                        <state key="selected" image="Group 26"/>
                                                                         <connections>
                                                                             <action selector="tune1Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="PWu-sa-Rid"/>
                                                                         </connections>
@@ -1437,7 +1382,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune2"/>
+                                                                        <state key="normal" image="Group 3"/>
+                                                                        <state key="selected" image="Group 23"/>
                                                                         <connections>
                                                                             <action selector="tune2Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="Vbj-nJ-fIo"/>
                                                                         </connections>
@@ -1461,7 +1407,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune3"/>
+                                                                        <state key="normal" image="Group 5"/>
+                                                                        <state key="selected" image="Group 24"/>
                                                                         <connections>
                                                                             <action selector="tune3Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="3Rx-cI-sux"/>
                                                                         </connections>
@@ -1480,7 +1427,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune4"/>
+                                                                        <state key="normal" image="Group 6"/>
+                                                                        <state key="selected" image="Group 25"/>
                                                                         <connections>
                                                                             <action selector="tune4Tapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="uvZ-Nf-iKf"/>
                                                                         </connections>
@@ -1502,24 +1450,22 @@
                                     <constraint firstAttribute="width" constant="360" id="RrA-8f-eOl"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUE-lg-E8W">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUE-lg-E8W">
                                 <rect key="frame" x="34" y="793" width="360" height="35"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="Ozt-lt-HTI"/>
                                     <constraint firstAttribute="height" constant="35" id="qWj-Q0-cSP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="PLAY"/>
+                                <state key="normal" image="Group 31"/>
                                 <connections>
                                     <action selector="playButtonTapped:" destination="j7h-5I-LjF" eventType="touchUpInside" id="CEQ-Ca-BTN"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zJP-TD-kwk"/>
-                        <color key="backgroundColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VsE-pD-xHN" firstAttribute="top" secondItem="zJP-TD-kwk" secondAttribute="top" constant="50" id="5sm-uW-bTU"/>
                             <constraint firstItem="sUE-lg-E8W" firstAttribute="leading" secondItem="zJP-TD-kwk" secondAttribute="leading" constant="34" id="8oZ-3l-rt3"/>
@@ -1591,9 +1537,10 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="Image">
+                                                                        <state key="normal" image="Group 11">
                                                                             <color key="titleShadowColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </state>
+                                                                        <state key="selected" image="Group 17"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                                 <integer key="value" value="90"/>
@@ -1612,7 +1559,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="cymbol"/>
+                                                                        <state key="normal" image="Group 14"/>
+                                                                        <state key="selected" image="Group 20"/>
                                                                         <connections>
                                                                             <action selector="cymbol:" destination="frv-gM-20q" eventType="touchUpInside" id="XV5-v9-aBG"/>
                                                                         </connections>
@@ -1632,7 +1580,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="snare" image="snare"/>
+                                                                        <state key="normal" image="Group 13"/>
+                                                                        <state key="selected" image="Group 19"/>
                                                                         <connections>
                                                                             <action selector="snareTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="ymN-hD-nDv"/>
                                                                         </connections>
@@ -1646,7 +1595,8 @@
                                                                         </constraints>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="bass kick"/>
+                                                                        <state key="normal" image="Group 12"/>
+                                                                        <state key="selected" image="Group 18"/>
                                                                         <connections>
                                                                             <action selector="bassTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Vs9-BF-9nm"/>
                                                                         </connections>
@@ -1671,7 +1621,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="strings"/>
+                                                                        <state key="normal" image="Group 8"/>
+                                                                        <state key="selected" image="Group 22"/>
                                                                         <connections>
                                                                             <action selector="strings1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="GcX-hJ-j5z"/>
                                                                         </connections>
@@ -1691,7 +1642,8 @@
                                                                 </constraints>
                                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="strings"/>
+                                                                <state key="normal" image="Group 8"/>
+                                                                <state key="selected" image="Group 22"/>
                                                                 <connections>
                                                                     <action selector="strings2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="V9Y-Oj-cya"/>
                                                                 </connections>
@@ -1709,7 +1661,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Wlb-qh-k9r"/>
                                                                         </connections>
@@ -1728,7 +1681,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="synth"/>
+                                                                        <state key="normal" image="Group 9"/>
+                                                                        <state key="selected" image="Group 16"/>
                                                                         <connections>
                                                                             <action selector="synth2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="VgX-Fl-qPe"/>
                                                                         </connections>
@@ -1762,7 +1716,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="uzN-zC-akl"/>
                                                                         </connections>
@@ -1781,7 +1736,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Wml-nX-vqr"/>
                                                                         </connections>
@@ -1805,7 +1761,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano3Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="Ggn-2e-OxR"/>
                                                                         </connections>
@@ -1824,7 +1781,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="piano"/>
+                                                                        <state key="normal" image="Group 15"/>
+                                                                        <state key="selected" image="Group 21"/>
                                                                         <connections>
                                                                             <action selector="piano4Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="eGa-SY-dbz"/>
                                                                         </connections>
@@ -1853,7 +1811,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune1"/>
+                                                                        <state key="normal" image="Group 7"/>
+                                                                        <state key="selected" image="Group 26"/>
                                                                         <connections>
                                                                             <action selector="tune1Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="rBD-Zj-tJs"/>
                                                                         </connections>
@@ -1872,7 +1831,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune2"/>
+                                                                        <state key="normal" image="Group 3"/>
+                                                                        <state key="selected" image="Group 23"/>
                                                                         <connections>
                                                                             <action selector="tune2Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="aGg-1h-CoV"/>
                                                                         </connections>
@@ -1896,7 +1856,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune3"/>
+                                                                        <state key="normal" image="Group 5"/>
+                                                                        <state key="selected" image="Group 24"/>
                                                                         <connections>
                                                                             <action selector="tune3Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="ebQ-Aa-fg8"/>
                                                                         </connections>
@@ -1915,7 +1876,8 @@
                                                                         <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" image="tune4"/>
+                                                                        <state key="normal" image="Group 6"/>
+                                                                        <state key="selected" image="Group 25"/>
                                                                         <connections>
                                                                             <action selector="tune4Tapped:" destination="frv-gM-20q" eventType="touchUpInside" id="FRm-bi-4Kl"/>
                                                                         </connections>
@@ -1937,17 +1899,15 @@
                                     <constraint firstAttribute="width" constant="360" id="eMS-Zr-F9m"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Q8-V8-xxQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Q8-V8-xxQ">
                                 <rect key="frame" x="34" y="793" width="360" height="35"/>
-                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="gdH-Gy-IMm"/>
                                     <constraint firstAttribute="height" constant="35" id="ofQ-kR-t8P"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="PLAY"/>
+                                <state key="normal" image="Group 31"/>
                                 <connections>
                                     <action selector="playButtonTapped:" destination="frv-gM-20q" eventType="touchUpInside" id="ve4-jt-fJi"/>
                                 </connections>
@@ -1958,29 +1918,27 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pqp-fX-ZZE">
                                         <rect key="frame" x="0.0" y="0.0" width="186" height="31"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ee-5e-XLj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ee-5e-XLj">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="88" id="HS7-Oo-gq9"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="1"/>
+                                                <state key="normal" image="Group 28"/>
                                                 <connections>
                                                     <action selector="button1:" destination="frv-gM-20q" eventType="touchUpInside" id="vm0-Dy-yb6"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5T-Br-MJa">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5T-Br-MJa">
                                                 <rect key="frame" x="98" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="31" id="Ajg-9Y-fKy"/>
                                                     <constraint firstAttribute="width" constant="88" id="wI7-rg-aWu"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="2"/>
+                                                <state key="normal" image="Group 30"/>
                                                 <connections>
                                                     <action selector="button2:" destination="frv-gM-20q" eventType="touchUpInside" id="2Mj-by-U6h"/>
                                                 </connections>
@@ -1990,28 +1948,26 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="01b-x2-MXz">
                                         <rect key="frame" x="205" y="0.0" width="183" height="31"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhI-e1-aGl">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhI-e1-aGl">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="88" id="KZz-le-vLC"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="3"/>
+                                                <state key="normal" image="Group 29"/>
                                                 <connections>
                                                     <action selector="button3:" destination="frv-gM-20q" eventType="touchUpInside" id="pts-I5-uIg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cW4-2D-aVD">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cW4-2D-aVD">
                                                 <rect key="frame" x="95" y="0.0" width="88" height="31"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.1529411765" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="88" id="SNS-9r-gsf"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="4"/>
+                                                <state key="normal" image="Group 27"/>
                                                 <connections>
                                                     <action selector="button4:" destination="frv-gM-20q" eventType="touchUpInside" id="DtT-2B-d3x"/>
                                                 </connections>
@@ -2022,7 +1978,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JZM-iJ-GQW"/>
-                        <color key="backgroundColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="MOg-L7-JNq" firstAttribute="top" secondItem="JZM-iJ-GQW" secondAttribute="top" constant="208" id="4Wr-Q0-YAd"/>
                             <constraint firstItem="JZM-iJ-GQW" firstAttribute="trailing" secondItem="2Q8-V8-xxQ" secondAttribute="trailing" constant="34" id="BU2-4p-Qqh"/>
@@ -2064,30 +2020,32 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="200" height="200"/>
-        <image name="bass blur" width="208" height="208"/>
-        <image name="bass kick" width="200" height="200"/>
-        <image name="clap blur" width="208" height="208"/>
-        <image name="cymbol" width="200" height="200"/>
-        <image name="cymbol blur" width="208" height="208"/>
-        <image name="piano" width="64" height="64"/>
-        <image name="piano blur" width="72" height="72"/>
-        <image name="snare" width="500" height="500"/>
-        <image name="snare blur" width="508" height="508"/>
-        <image name="strings" width="64" height="64"/>
-        <image name="strings blur" width="72" height="72"/>
-        <image name="synth" width="64" height="64"/>
-        <image name="synth blur" width="72" height="72"/>
-        <image name="tune1" width="32" height="52"/>
-        <image name="tune1 blur" width="40" height="60"/>
-        <image name="tune2" width="64" height="64"/>
-        <image name="tune2 blur" width="72" height="72"/>
-        <image name="tune3" width="64" height="64"/>
-        <image name="tune3 blur" width="72" height="72"/>
-        <image name="tune4" width="80" height="67"/>
-        <image name="tune4 blur" width="88" height="75"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="Group 11" width="60" height="60"/>
+        <image name="Group 12" width="60" height="60"/>
+        <image name="Group 13" width="60" height="60"/>
+        <image name="Group 14" width="76" height="79"/>
+        <image name="Group 15" width="60" height="60"/>
+        <image name="Group 16" width="60" height="60"/>
+        <image name="Group 17" width="60" height="60"/>
+        <image name="Group 18" width="60" height="60"/>
+        <image name="Group 19" width="60" height="60"/>
+        <image name="Group 20" width="76" height="79"/>
+        <image name="Group 21" width="60" height="60"/>
+        <image name="Group 22" width="60" height="60"/>
+        <image name="Group 23" width="60" height="60"/>
+        <image name="Group 24" width="60" height="61"/>
+        <image name="Group 25" width="72" height="60"/>
+        <image name="Group 26" width="60" height="60"/>
+        <image name="Group 27" width="82" height="24"/>
+        <image name="Group 28" width="82" height="24"/>
+        <image name="Group 29" width="82" height="24"/>
+        <image name="Group 3" width="60" height="60"/>
+        <image name="Group 30" width="82" height="24"/>
+        <image name="Group 31" width="145" height="45"/>
+        <image name="Group 5" width="60" height="61"/>
+        <image name="Group 6" width="72" height="60"/>
+        <image name="Group 7" width="60" height="60"/>
+        <image name="Group 8" width="60" height="61"/>
+        <image name="Group 9" width="60" height="60"/>
     </resources>
 </document>

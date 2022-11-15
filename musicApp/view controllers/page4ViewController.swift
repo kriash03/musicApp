@@ -7,23 +7,72 @@
 
 import UIKit
 import AVFoundation
+import MediaPlayer
 
-class page4ViewController: UIViewController {
+class page4ViewController: UIViewController,MPMediaPickerControllerDelegate, AVAudioPlayerDelegate {
     
-    var play: AVAudioPlayer!
+    var pickerVC: MPMediaPickerController?
+    var mediaItems = [MPMediaItem]()
+    var conditions = [String]()
+    var instructions: [() -> ()] = []
+    var play: AVAudioPlayer! //to initialise player
     var time: Timer!
+    var myQueuePlayer: AVQueuePlayer?
+    var avItems: [AVPlayerItem] = []
     var isPlaying = false {
         didSet {
           setButtonState()
           playPauseAudio()
         }
       }
-    
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+            print("finished playing \(String(describing: play.url)  )")
+            startRecord {
+                playNextInstruction()
+            }
+        }
+
+        func playScript(c: String)
+        {
+            let path = Bundle.main.path(forResource: c, ofType:"wav")!
+            let url = URL(fileURLWithPath: path)
+
+            do {
+                self.play = try AVAudioPlayer(contentsOf: url)
+                            self.play?.delegate = self
+                            self.play?.play()
+                            print(c)
+                            print("playing script for " + c)
+                        } catch {
+                            print("couldn't load script")
+                        }
+                    }
+    func beginTest() {
+            instructions = conditions.shuffled().map { [unowned self] condition in
+                return {
+                    self.playScript(c: condition)
+                }
+            }
+            playNextInstruction()
+        }
+    func playNextInstruction() {
+            if instructions.count != 0 {
+                instructions.remove(at: 0)()
+            } else {
+                exportData()
+            }
+        }
+        
+        func exportData() {
+        }
+        
+        func startRecord(completion: (() -> ())) {
+        }
     func setButtonState() {
        if isPlaying {
-         playButton.setTitle("Pause", for: .normal)
+         playButton.setTitle("", for: .normal)
        } else {
-         playButton.setTitle("Play", for: .normal)
+         playButton.setTitle("", for: .normal)
        }
      }
      
@@ -41,6 +90,21 @@ class page4ViewController: UIViewController {
     
     @IBAction func playButtonTapped(_ sender: UIButton) {
         isPlaying = !isPlaying
+        if myQueuePlayer == nil {
+                    // instantiate the AVQueuePlayer with all avItems
+                    myQueuePlayer = AVQueuePlayer(items: avItems)
+                } else {
+                    // stop the player and remove all avItems
+                    myQueuePlayer?.removeAllItems()
+                    // add all avItems back to the player
+                    avItems.forEach {
+                        myQueuePlayer?.insert($0, after: nil)
+                    }
+                }
+                // seek to .zero (in case we added items back in)
+                myQueuePlayer?.seek(to: .zero)
+                // start playing
+                myQueuePlayer?.play()
     }
     
     @IBOutlet weak var playButton: UIButton!
@@ -67,6 +131,14 @@ class page4ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let myTunes: [String] = ["Clap", "Snare", "Cymbol","Beat Only Kick Beat_1","Melody Synth Melody 2_1","Melody Synth Melody 1_1","Melody String Melody 1_1","Melody String Melody 2_1","Harmony Piano Minor 1 Harmony_1","Harmony Piano Major 1 Harmony_1","Harmony Piano Major 2 Harmony_1","Harmony Piano Major 3 Harmony_1","Beat Full Beat_1","FX Backwards Piano FX_1","Beat Dance Off Beat_1","FX Kick Builds FX_1"]
+        for clip in myTunes {
+                    guard let url = Bundle.main.url(forResource: clip, withExtension: ".wav") else {
+                        // mp3 file not found in bundle - so crash!
+                        fatalError("Could not load \(clip).wav")
+                    }
+                    avItems.append(AVPlayerItem(url: url))
+        }
     }
     
     

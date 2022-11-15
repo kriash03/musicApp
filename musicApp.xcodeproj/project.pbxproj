@@ -152,9 +152,9 @@
 		6B299395291EA69A00E51AE3 /* others */ = {
 			isa = PBXGroup;
 			children = (
-				6B93147D291BF8D300C36730 /* Beat Dance Off Beat_1.wav */,
 				6B931486291BF8D400C36730 /* Beat Full Beat_1.wav */,
 				6B93147E291BF8D300C36730 /* FX Backwards Piano FX_1.wav */,
+				6B93147D291BF8D300C36730 /* Beat Dance Off Beat_1.wav */,
 				6B93147A291BF8D200C36730 /* FX Kick Builds FX_1.wav */,
 			);
 			path = others;

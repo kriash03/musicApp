@@ -7,17 +7,70 @@
 
 import UIKit
 import AVFoundation
+import MediaPlayer
 
-class ViewController: UIViewController, UIScrollViewDelegate {
 
+class ViewController: UIViewController, UIScrollViewDelegate, MPMediaPickerControllerDelegate, AVAudioPlayerDelegate {
+
+   // var hotCuesColortimer: Timer!
+    var pickerVC: MPMediaPickerController?
+    var mediaItems = [MPMediaItem]()
+    var conditions = [String]()
+    var instructions: [() -> ()] = []
     var play: AVAudioPlayer! //to initialise player
     var time: Timer!
+    var myQueuePlayer: AVQueuePlayer?
+    var avItems: [AVPlayerItem] = []
     var isPlaying = false {
         didSet {
           setButtonState()
           playPauseAudio()
         }
       }
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+            print("finished playing \(String(describing: play.url)  )")
+            startRecord {
+                playNextInstruction()
+            }
+        }
+
+        func playScript(c: String)
+        {
+            let path = Bundle.main.path(forResource: c, ofType:"wav")!
+            let url = URL(fileURLWithPath: path)
+
+            do {
+                self.play = try AVAudioPlayer(contentsOf: url)
+                            self.play?.delegate = self
+                            self.play?.play()
+                            print(c)
+                            print("playing script for " + c)
+                        } catch {
+                            print("couldn't load script")
+                        }
+                    }
+    func beginTest() {
+            instructions = conditions.shuffled().map { [unowned self] condition in
+                return {
+                    self.playScript(c: condition)
+                }
+            }
+            playNextInstruction()
+        }
+    func playNextInstruction() {
+            if instructions.count != 0 {
+                instructions.remove(at: 0)()
+            } else {
+                exportData()
+            }
+        }
+        
+        func exportData() {
+        }
+        
+        func startRecord(completion: (() -> ())) {
+        }
+    
     
     
     @IBOutlet weak var playButton: UIButton!
@@ -43,33 +96,35 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var tune4: UIButton!
     
     //not in use
-    let scrollViewer = UIScrollView()
-    var pageControl: UIPageControl {
-        let pageControl = UIPageControl()
-        pageControl.numberOfPages = 4
-        return pageControl
-        
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //basic button design prompts
-        cymbol.layer.cornerRadius = 9.0
-        cymbol.layer.masksToBounds = true
-        cymbol.layer.borderWidth = 1.5
-        cymbol.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
-        clap.layer.cornerRadius = 9.0
-        clap.layer.masksToBounds = true
-        clap.layer.borderWidth = 1.5
-        clap.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
-        snare.layer.cornerRadius = 9.0
-        snare.layer.masksToBounds = true
-        snare.layer.borderWidth = 1.5
-        snare.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
-        kick.layer.cornerRadius = 9.0
-        kick.layer.masksToBounds = true
-        kick.layer.borderWidth = 1.5
-        kick.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
+        
+        let myTunes: [String] = ["Clap", "Snare", "Cymbol","Beat Only Kick Beat_1","Melody Synth Melody 2_1","Melody Synth Melody 1_1","Melody String Melody 1_1","Melody String Melody 2_1","Harmony Piano Minor 1 Harmony_1","Harmony Piano Major 1 Harmony_1","Harmony Piano Major 2 Harmony_1","Harmony Piano Major 3 Harmony_1","Beat Full Beat_1","FX Backwards Piano FX_1","Beat Dance Off Beat_1","FX Kick Builds FX_1"]
+        for clip in myTunes {
+                    guard let url = Bundle.main.url(forResource: clip, withExtension: ".wav") else {
+                        // mp3 file not found in bundle - so crash!
+                        fatalError("Could not load \(clip).wav")
+                    }
+                    avItems.append(AVPlayerItem(url: url))
+        }
+        
+//        cymbol.layer.cornerRadius = 9.0
+//        cymbol.layer.masksToBounds = true
+//        cymbol.layer.borderWidth = 1.5
+//        cymbol.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
+//        clap.layer.cornerRadius = 9.0
+//        clap.layer.masksToBounds = true
+//        clap.layer.borderWidth = 1.5
+//        clap.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
+//        snare.layer.cornerRadius = 9.0
+//        snare.layer.masksToBounds = true
+//        snare.layer.borderWidth = 1.5
+//        snare.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
+//        kick.layer.cornerRadius = 9.0
+//        kick.layer.masksToBounds = true
+//        kick.layer.borderWidth = 1.5
+//        kick.layer.borderColor = CGColor(red: 54, green: 54, blue: 89, alpha: 0.28)
     }
     
     //to set state(play or pause) of the button
@@ -93,9 +148,35 @@ class ViewController: UIViewController, UIScrollViewDelegate {
              }
      }
     
+
     @IBAction func playButtonTapped(_ sender: UIButton) {
-        isPlaying = !isPlaying
+        isPlaying != isPlaying
+        if myQueuePlayer == nil {
+                    // instantiate the AVQueuePlayer with all avItems
+                    myQueuePlayer = AVQueuePlayer(items: avItems)
+                } else {
+                    // stop the player and remove all avItems
+                    myQueuePlayer?.removeAllItems()
+                    // add all avItems back to the player
+                    avItems.forEach {
+                        myQueuePlayer?.insert($0, after: nil)
+                    }
+                }
+                // seek to .zero (in case we added items back in)
+                myQueuePlayer?.seek(to: .zero)
+                // start playing
+                myQueuePlayer?.play()
+            
     }
+        
+    @IBAction func picker(_ sender: AnyObject) {
+            pickerVC = MPMediaPickerController(mediaTypes: .music)
+            pickerVC?.allowsPickingMultipleItems = true
+            pickerVC?.delegate = self
+            if let controller = pickerVC {
+                present(controller, animated: true, completion: nil)
+            }
+        }
     
     
     @IBAction func button1Tapped(_ sender: Any) {
@@ -148,6 +229,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         } catch {
             print("unable to locate file")
         }
+
     }
     @IBAction func snareTapped(_ sender: Any) {
         let path = Bundle.main.path(forResource: "Snare", ofType:"wav")!
@@ -350,8 +432,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             print("unable to locate file")
         }
     }
-    
-    
 }
     
     
